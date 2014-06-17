@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_view_camera"
+        android:contentDescription="@string/image_view_camera"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center|top" />
+
+    <Button
+            android:id="@+id/takePicture"
+            android:text="@string/button_camera"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:onClick="process"
+            android:textColor="#ffffffff"
+            android:textSize="38sp"
+            android:visibility="visible"
+        android:background="#ff000000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.8" />
+
+
+</RelativeLayout>

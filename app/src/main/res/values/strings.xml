@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Monster Scanner</string>
+    <string name="MonsterScanner">Monster Scanner</string>
+    <string name="image_cd_camera">cd_camera</string>
+    <string name="button_camera">Touch screen to scan for monsters</string>
+    <string name="action_settings">1</string>
+    <string name="image_view_camera">This is a camera image</string>
+
+
+</resources>

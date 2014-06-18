@@ -1,3 +1,5 @@
+//https://play.google.com/store/apps/details?id=com.happydad.monsterscanner.app
+
 package com.happydad.monsterscanner.app;
 
 import android.app.Activity;
